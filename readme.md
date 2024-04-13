@@ -18,8 +18,7 @@ This assumes you have an API key already (https://app.prodia.com/api) and it wil
 
 Ensure you have a relatively modern version of python installed
 
-`commandline
-pip install prodiapy`
+`pip install prodiapy`
 
 Set your API key as an OS environment variable. This will let you set it and you will only need to include the name of the variable rather than the entire key every time, and you do not need to adjust anything within the script as it's already been set on the OS side. 
 
@@ -32,20 +31,16 @@ Windows: Open the System Properties settings menu within the control panel (you 
      And the variable value should be the API key without any additional punctuation. It's good to restart your PC after making OS changes but it's not really crucial.
 
 Linux: Open your CLI and enter the command
-    `commandline
-    export PRODIA_API_KEY='YOURAPIKEY'
-    `
+    `export PRODIA_API_KEY='YOURAPIKEY'`
         To verify it was successful, enter 
-            `commandline
-            printenv PRODIA_API_KEY`
+            `printenv PRODIA_API_KEY`
                If this prints out YOURAPIKEY then you need to replace that text with **your own API key** into the previous command, otherwise, it worked.
 
 # Usage
 
 Either navigate to the folder containing the python file and open the CLI to the path and enter the command:
 
-`commandline
-py prodiapull.py`
+`py prodiapull.py`
 
 Then write in your prompt. 
 It will create a new folder in the same directory and download the resulting image (if successful) to it with a timestamp. 

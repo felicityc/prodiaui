@@ -26,7 +26,7 @@ Set your API key as an OS environment variable. This will let you set it and you
 
 If you are going to use several API keys, you will probably change that yourself. 
 
-    [b]Windows: Open the System Properties settings menu within the control panel (you can just search 'env' in the start menu and it will take you there)
+     Windows: Open the System Properties settings menu within the control panel (you can just search 'env' in the start menu and it will take you there)
         Click on 'Environment Variables' near the bottom
         Under user variables, click 'New...' 
         Variable name should be: `PRODIA_API_KEY`
